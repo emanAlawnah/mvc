@@ -1,0 +1,22 @@
+﻿<head>
+    <!Doctype html>
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+        <h1>all categories</h1>
+
+        <ul>
+            @foreach (var category in @Model)
+            {
+
+                <li> @category.Name <a href="/Categories/Details/@category.Id"> Details </a></li>
+
+            }
+        </ul>
+
+    </body>
+</html>
+</head> 

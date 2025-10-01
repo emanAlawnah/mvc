@@ -1,0 +1,22 @@
+﻿<!Doctype  html>
+<html>
+    <head><title></title></head>
+    <body>
+
+        <h1>all users</h1>
+    @foreach (var user in @Model)
+    {
+        <h2>user name : @user</h2>
+    }
+
+    <ul>
+        @foreach (var user in @Model)
+        {
+
+            <li> @user </li>
+
+        }
+    </ul>
+  
+</body>
+</html>
