@@ -1,0 +1,20 @@
+﻿@model Category
+<form method="post" action="/categories/store">
+    <div class="d-flex flex-column gap-3 mb-3">
+        <div>
+            <label for="catName" class="form-label">new category</label>
+            <input type="text" name="name" value="@Model.Name" class="form-control" id="catName" placeholder="category name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+
+        </div>
+
+        <div>
+            <label for="discription" class="form-label">discription</label>
+            <input type="text" name="Description" value="@Model.Description" class="form-control" id="discription" placeholder="discription">
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-outline-primary">create</button>
+
+</form> 
