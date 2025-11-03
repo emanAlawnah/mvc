@@ -35,7 +35,7 @@ The system demonstrates a full implementation of basic data management operation
 
 | Framework | Language | Database | Frontend |
 |-----------|---------|----------|---------|
-| ASP.NET MVC | C# | SQL Server / LocalDB | HTML, CSS, Bootstrap |
+| ASP.NET MVC | C# | SQL Server | HTML, CSS, Bootstrap |
 
 ---
 
